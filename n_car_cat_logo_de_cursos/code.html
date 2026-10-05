@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-background":"#390b08","on-secondary":"#ffffff","tertiary-fixed":"#b9eaff","error-container":"#ffdad6","secondary":"#b9082d","on-surface":"#390b08","surface-container":"#ffe9e6","on-tertiary-fixed":"#001f29","secondary-fixed-dim":"#ffb3b3","surface-container-low":"#fff0ee","surface-variant":"#ffdad5","primary-fixed":"#ffdad6","outline":"#8c716e","inverse-surface":"#54201a","on-secondary-fixed-variant":"#920020","background":"#fff8f7","on-primary":"#ffffff","on-primary-container":"#ff746b","on-surface-variant":"#58413f","on-secondary-container":"#fffbff","primary":"#4b0005","tertiary-container":"#003c4c","primary-fixed-dim":"#ffb3ad","surface-container-high":"#ffe2de","on-error-container":"#93000a","on-primary-fixed-variant":"#8b181a","surface-container-highest":"#ffdad5","on-tertiary-fixed-variant":"#004d62","on-error":"#ffffff","surface":"#fff8f7","inverse-on-surface":"#ffedea","tertiary-fixed-dim":"#93cfe8","on-tertiary-container":"#6ca8c0","surface-dim":"#ffcfc9","outline-variant":"#e0bfbc","inverse-primary":"#ffb3ad","secondary-fixed":"#ffdad9","tertiary":"#002530","on-tertiary":"#ffffff","surface-tint":"#ac312f","on-primary-fixed":"#410003","error":"#ba1a1a","surface-container-lowest":"#ffffff","surface-bright":"#fff8f7","on-secondary-fixed":"#400009","secondary-container":"#dd2d43","primary-container":"#73020c"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-xs":"0.25rem","margin-mobile":"1.25rem","margin":"3rem","space-sm":"0.5rem","space-lg":"1.5rem","space-md":"1rem","gutter":"1.5rem","gutter-mobile":"1rem","space-xl":"2.5rem"},fontFamily:{"label-sm":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],"display-lg":["Playfair Display"],"headline-sm":["Playfair Display"],"body-md":["Plus Jakarta Sans"],"title-lg":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"display-md-mobile":["Playfair Display"],"title-md":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"display-lg-mobile":["Playfair Display"],"display-md":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"]},fontSize:{"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.05em","fontWeight":"700"}],"headline-md":["26px",{"lineHeight":"34px","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"display-lg":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"title-lg":["18px",{"lineHeight":"26px","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"display-md-mobile":["32px",{"lineHeight":"38px","letterSpacing":"-0.01em","fontWeight":"600"}],"title-md":["16px",{"lineHeight":"24px","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","fontWeight":"600"}],"display-lg-mobile":["38px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"700"}],"display-md":["44px",{"lineHeight":"52px","letterSpacing":"-0.015em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.02em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.03em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-low/95 backdrop-blur-md shadow-[0_1px_8px_rgba(38,1,1,0.06)]"><div class="h-20 max-w-[1320px] mx-auto px-6 lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm group" data-path="inicio" href="../index.html"><img alt="Nácar" class="h-9 w-auto mix-blend-multiply" src="../assets/nacar-logo.png"/></a><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-primary font-title-md rounded-lg"><a class="px-space-md py-space-sm rounded-lg font-title-md text-title-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="inicio" href="../index.html">Inicio</a><a aria-current="page" class="px-space-md py-space-sm transition-all bg-surface-container-high text-primary font-title-md rounded-lg" data-path="cursos" href="#">Cursos</a><a class="px-space-md py-space-sm rounded-lg font-title-md text-title-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="artistas" href="../index.html#artistas">Artistas</a><a class="px-space-md py-space-sm rounded-lg font-title-md text-title-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="sobre-nacar" href="../index.html#sobre-nacar">Sobre Nácar</a><a class="px-space-md py-space-sm rounded-lg font-title-md text-title-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="recursos" href="../index.html#recursos">Recursos</a></nav></div><div class="flex items-center gap-space-sm lg:gap-space-md"><button aria-label="Buscar" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[22px]">search</span></button><a class="hidden sm:inline-flex items-center px-space-md py-space-sm font-label-lg text-label-lg text-primary hover:text-secondary transition-colors" data-path="iniciar-sesion" href="../proximamente.html">Iniciar Sesión</a><a class="inline-flex items-center px-space-lg py-2.5 rounded-lg bg-primary-container text-on-primary hover:bg-secondary transition-colors shadow-sm font-label-lg text-label-lg tracking-wide" data-path="cursos" href="#">Explorar Cursos</a><a aria-label="Perfil de usuario" class="ml-1 flex items-center ring-2 ring-primary/10 rounded-full transition-transform hover:scale-105" data-path="perfil-de-usuario" href="../proximamente.html"><span class="w-8 h-8 rounded-full bg-surface-container-high text-primary flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">person</span></span></a></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Catalog Hero / Context Header -->
+<section class="relative w-full bg-surface-container-low overflow-hidden py-14 lg:py-20">
+<div class="absolute -right-20 -top-20 w-96 h-96 rounded-full bg-secondary-container/10 blur-3xl pointer-events-none"></div>
+<div class="absolute -left-20 bottom-0 w-80 h-80 rounded-full bg-tertiary-fixed-dim/20 blur-2xl pointer-events-none"></div>
+<div class="max-w-[1320px] mx-auto px-6 lg:px-margin relative z-10">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-10">
+<div class="max-w-3xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-md text-label-md mb-4 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span>Semestre Académico Artesanal 2025</span>
+</div>
+<h1 class="font-headline-lg lg:font-display-lg text-headline-lg lg:text-display-lg text-primary tracking-tight leading-tight">
+            Explora Nuestros Cursos y Talleres
+          </h1>
+<p class="mt-4 font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            Aprende técnicas centenarias y expresiones contemporáneas guiado por maestros artesanos de toda Nicaragua. Un legado vivo transmitido de generación en generación.
+          </p>
+</div>
+<div class="flex items-center gap-4 bg-surface-container-lowest p-3 rounded-xl shadow-sm self-start lg:self-auto">
+<div class="flex -space-x-2">
+<div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-md text-label-md">JA</div>
+<div class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-label-md text-label-md">RF</div>
+<div class="w-10 h-10 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center font-label-md text-label-md">CM</div>
+</div>
+<div class="text-left">
+<span class="block font-title-md text-title-md text-primary font-bold">24+ Maestros Vivos</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Transmitiendo saberes ancestrales</span>
+</div>
+</div>
+</div>
+<!-- Live Search & Metrics Pill Bar -->
+<div class="bg-surface-container-lowest p-3 lg:p-4 rounded-xl shadow-md flex flex-col md:flex-row gap-3 items-stretch md:items-center justify-between">
+<div class="flex-1 flex items-center gap-3 px-3 py-1 rounded-lg bg-surface-container-low">
+<span class="material-symbols-outlined text-outline">search</span>
+<input class="w-full bg-transparent text-on-surface placeholder:text-outline font-body-md text-body-md focus:outline-none py-1.5" id="searchInput" placeholder="Buscar por técnica, maestro, región o material..." type="text"/>
+<button aria-label="Limpiar búsqueda" class="hidden text-outline hover:text-on-surface" id="clearSearchBtn">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="flex items-center gap-2 overflow-x-auto pb-1 md:pb-0">
+<div class="flex items-center gap-1.5 px-3 py-2 rounded-lg bg-surface-container font-label-sm text-label-sm text-primary">
+<span class="material-symbols-outlined text-[16px]">school</span>
+<span id="activeCoursesCount">8 Cursos Activos</span>
+</div>
+<div class="flex items-center gap-1.5 px-3 py-2 rounded-lg bg-surface-container font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+<span>5 Regiones</span>
+</div>
+<div class="flex items-center gap-1.5 px-3 py-2 rounded-lg bg-surface-container font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>100% Auténtico</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Filter & Navigation Section -->
+<section class="w-full max-w-[1320px] mx-auto px-6 lg:px-margin mt-8">
+<!-- Category Tabs -->
+<div class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none" id="categoryTabs">
+<button class="cat-pill active px-4 py-2.5 rounded-full font-label-lg text-label-lg bg-primary text-on-primary shadow-sm transition-all whitespace-nowrap" data-cat="all">
+        Todas las disciplinas
+      </button>
+<button class="cat-pill px-4 py-2.5 rounded-full font-label-lg text-label-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-all whitespace-nowrap" data-cat="ceramica">
+        Cerámica &amp; Barro
+      </button>
+<button class="cat-pill px-4 py-2.5 rounded-full font-label-lg text-label-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-all whitespace-nowrap" data-cat="pintura">
+        Pintura &amp; Óleo
+      </button>
+<button class="cat-pill px-4 py-2.5 rounded-full font-label-lg text-label-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-all whitespace-nowrap" data-cat="textil">
+        Textil &amp; Fibras
+      </button>
+<button class="cat-pill px-4 py-2.5 rounded-full font-label-lg text-label-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-all whitespace-nowrap" data-cat="talla">
+        Talla &amp; Madera
+      </button>
+<button class="cat-pill px-4 py-2.5 rounded-full font-label-lg text-label-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-all whitespace-nowrap" data-cat="folclore">
+        Folclore &amp; Tradición
+      </button>
+</div>
+<!-- Secondary Filters Grid -->
+<div class="mt-4 p-4 rounded-xl bg-surface-container-lowest shadow-sm flex flex-wrap lg:flex-nowrap items-center justify-between gap-4">
+<div class="flex flex-wrap items-center gap-3 w-full lg:w-auto">
+<!-- Nivel -->
+<div class="relative inline-block text-left">
+<select class="appearance-none bg-surface-container-low text-on-surface font-label-md text-label-md px-3.5 py-2 pr-8 rounded-lg cursor-pointer focus:outline-none focus:bg-surface-container-high shadow-xs" id="filterLevel">
+<option value="">Nivel: Todos</option>
+<option value="Principiante">Principiante</option>
+<option value="Intermedio">Intermedio</option>
+<option value="Avanzado">Avanzado</option>
+</select>
+<span class="material-symbols-outlined absolute right-2 top-2.5 text-[16px] pointer-events-none text-outline">expand_more</span>
+</div>
+<!-- Formato -->
+<div class="relative inline-block text-left">
+<select class="appearance-none bg-surface-container-low text-on-surface font-label-md text-label-md px-3.5 py-2 pr-8 rounded-lg cursor-pointer focus:outline-none focus:bg-surface-container-high shadow-xs" id="filterFormat">
+<option value="">Formato: Todos</option>
+<option value="A tu ritmo">A tu propio ritmo</option>
+<option value="En vivo">En vivo / Mentoría</option>
+</select>
+<span class="material-symbols-outlined absolute right-2 top-2.5 text-[16px] pointer-events-none text-outline">expand_more</span>
+</div>
+<!-- Región -->
+<div class="relative inline-block text-left">
+<select class="appearance-none bg-surface-container-low text-on-surface font-label-md text-label-md px-3.5 py-2 pr-8 rounded-lg cursor-pointer focus:outline-none focus:bg-surface-container-high shadow-xs" id="filterRegion">
+<option value="">Región de Origen</option>
+<option value="San Juan de Oriente">San Juan de Oriente</option>
+<option value="Solentiname">Solentiname</option>
+<option value="Masaya">Masaya</option>
+<option value="Diriamba">Diriamba</option>
+<option value="Granada">Granada</option>
+</select>
+<span class="material-symbols-outlined absolute right-2 top-2.5 text-[16px] pointer-events-none text-outline">expand_more</span>
+</div>
+<!-- Reset Button -->
+<button class="text-on-surface-variant hover:text-secondary font-label-sm text-label-sm flex items-center gap-1 px-2 py-1" id="resetFilters">
+<span class="material-symbols-outlined text-[15px]">restart_alt</span>
+<span>Restablecer</span>
+</button>
+</div>
+<!-- Sort Filter -->
+<div class="flex items-center gap-2 self-end lg:self-auto w-full lg:w-auto justify-end">
+<span class="font-body-sm text-body-sm text-outline">Ordenar por:</span>
+<div class="relative inline-block text-left">
+<select class="appearance-none bg-surface-container-high font-label-md text-label-md text-primary px-3.5 py-2 pr-8 rounded-lg cursor-pointer focus:outline-none" id="filterSort">
+<option value="popular">Más populares</option>
+<option value="rating">Mejor valorados</option>
+<option value="price-asc">Precio: menor a mayor</option>
+<option value="price-desc">Precio: mayor a menor</option>
+</select>
+<span class="material-symbols-outlined absolute right-2 top-2.5 text-[16px] pointer-events-none text-primary">sort</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Catalog Grid & Dynamic Layout -->
+<section class="w-full max-w-[1320px] mx-auto px-6 lg:px-margin mt-10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="courseGrid">
+<!-- Course 1 -->
+<article class="course-card bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden group" data-category="ceramica" data-format="A tu ritmo" data-level="Intermedio" data-price="45" data-rating="4.9" data-region="San Juan de Oriente">
+<div class="relative w-full h-56 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close-up of artisan hands shaping fine earthenware on a pottery wheel, surrounded by traditional Nicaraguan geometric incised pottery in terracotta and volcanic ash clay, soft natural workshop sunlight, artisanal warm aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJJSw-XmAGZZk09GWCEDtVRG0_1AaGxfj2cO4JPwPO0oUWd8RQPiH8wfNUJcKodLLb2TdPZ_7BDhYauTvuj_J1v2Z7PfeAGXwAfPXxl2Z-1QlrUKNMs8F2rTgXwzybJajHApkqRlkNCVBUp9G2Vx5crAwmiFMuAd2DxaPqypQ7CnWTI2d_9leLHQQ7Ieex2EBbtplPj0Od0cqzozp8oXzUINiLzCjd06_a6l0K56dHV_psZ3jl2DSt8A"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-60"></div>
+<div class="absolute top-3 left-3 flex gap-2">
+<span class="px-2.5 py-1 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm shadow-sm uppercase tracking-wider">Bestseller</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm shadow-sm">Cerámica</span>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1.5 text-on-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+<span>San Juan de Oriente</span>
+</div>
+</div>
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-outline">Nivel Intermedio • 16 Horas</span>
+<div class="flex items-center gap-1 text-secondary font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>4.9</span>
+<span class="text-outline font-normal">(420)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors mb-2 leading-snug">
+              Alfarería Ancestral y Esmaltado de San Juan de Oriente
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4 line-clamp-2">
+              Domina las técnicas de bruñido con canto rodado, engobes de tierra mineral y cocción tradicional a leña.
+            </p>
+</div>
+<div>
+<div class="flex items-center gap-3 py-3 border-t-0 bg-surface-container-low px-3 rounded-lg mb-4">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-label-sm text-label-sm font-bold">JA</div>
+<div class="min-w-0">
+<p class="font-title-md text-title-md text-primary truncate">Don José Amador</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant truncate">Maestro Alfarero • 35 años de oficio</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div>
+<span class="block font-label-sm text-label-sm text-outline uppercase tracking-wider">Inversión</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">$45 <span class="font-label-sm text-label-sm text-outline font-normal">USD</span></span>
+</div>
+<a class="px-4 py-2.5 rounded-lg bg-primary text-on-primary hover:bg-secondary font-label-md text-label-md transition-all shadow-sm" href="../n_car_detalle_de_curso/code.html">
+                Ver Detalle
+              </a>
+</div>
+</div>
+</div>
+</article>
+<!-- Course 2 -->
+<article class="course-card bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden group" data-category="pintura" data-format="En vivo" data-level="Principiante" data-price="49" data-rating="5.0" data-region="Solentiname">
+<div class="relative w-full h-56 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Vibrant naif primitivist oil painting on canvas depicting Lake Nicaragua, lush tropical islands of Solentiname, vivid flora, exotic birds, and colorful wooden fishing boats under an amber sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtOwUWmKKxuy8kwUiv_gfmEDM5Ys--Mj6xKD_NI96RzZUtHuakminrcMb3VBmEKDm_nLAxzJsqoDx7lzhhNmvKUcUx4Ju36qU6vtBH44YnTAIIdE5J55OTYiWEkIJqN2tQNE2HJLjAH-NUd9-RSeda4JL-D1o4UQjNQn-PK1TQhNaUf3kN72njdq7pkSB-vzTErGocZ3oN787eBYgE7vbcpfCRuARSTRCI9eC4-baksM_OfSBEUS6lsw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-60"></div>
+<div class="absolute top-3 left-3 flex gap-2">
+<span class="px-2.5 py-1 rounded-full bg-tertiary-container text-on-tertiary font-label-sm text-label-sm shadow-sm uppercase tracking-wider">Certificado</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm shadow-sm">Pintura</span>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1.5 text-on-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+<span>Archipiélago de Solentiname</span>
+</div>
+</div>
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-outline">Principiante • 12 Horas</span>
+<div class="flex items-center gap-1 text-secondary font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>5.0</span>
+<span class="text-outline font-normal">(310)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors mb-2 leading-snug">
+              El Lenguaje del Color: Paisajismo Primitivista de Solentiname
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4 line-clamp-2">
+              Aprende a narrar la naturaleza exuberante con colores puros, sin perspectiva académica tradicional, desde el corazón del archipiélago.
+            </p>
+</div>
+<div>
+<div class="flex items-center gap-3 py-3 border-t-0 bg-surface-container-low px-3 rounded-lg mb-4">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary flex items-center justify-center font-label-sm text-label-sm font-bold">RF</div>
+<div class="min-w-0">
+<p class="font-title-md text-title-md text-primary truncate">Mtra. Rosa Fonseca</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant truncate">Pintora Primitivista de Solentiname</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div>
+<span class="block font-label-sm text-label-sm text-outline uppercase tracking-wider">Inversión</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">$49 <span class="font-label-sm text-label-sm text-outline font-normal">USD</span></span>
+</div>
+<button class="px-4 py-2.5 rounded-lg bg-primary text-on-primary hover:bg-secondary font-label-md text-label-md transition-all shadow-sm" onclick="openCoursePreview('El Lenguaje del Color: Paisajismo Primitivista de Solentiname', 'Mtra. Rosa Fonseca', 'Solentiname', '$49 USD', '12 horas', 'Explora la libertad cromática del movimiento fundado en Solentiname. Trabajo de capas de óleo sobre madera y lienzo con pigmentación pura.')">
+                Ver Detalle
+              </button>
+</div>
+</div>
+</div>
+</article>
+<!-- Course 3 -->
+<article class="course-card bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden group" data-category="textil" data-format="A tu ritmo" data-level="Principiante" data-price="39" data-rating="4.8" data-region="Masaya">
+<div class="relative w-full h-56 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Intricate hammock weaving loom in Masaya, cotton threads tensioned on wooden frame, skilled fingers weaving decorative macrame fringes in cream and garnet dyes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSSHZMB15_RjfPyoTfUoX_xrLLvHF3lj0dUHXYHF7eoCYG93NycoptPBBW_adL8E2CDRV7bWqVfy7cjphVThyC3ndN2GBXh9rWJ30DFQTtqtq77CZwWiB5onDF8rtRn2Z17jgD94THwpBd9D2NI29DRhFTUTRl0c-2nEswS0VUg3n0uCqoBWvYcDLaidWDwaUoNKA0Dihc3EmbrfMjCfMT7QeyPUbum13SIbe1g_ZGntA3iOgUtpka4g"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-60"></div>
+<div class="absolute top-3 left-3 flex gap-2">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm shadow-sm">Textil</span>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1.5 text-on-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+<span>Masaya (Cuna del Folclore)</span>
+</div>
+</div>
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-outline">Principiante • 10 Horas</span>
+<div class="flex items-center gap-1 text-secondary font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>4.8</span>
+<span class="text-outline font-normal">(190)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors mb-2 leading-snug">
+              Urdimbre y Nudo: Técnicas de Telar de Hamaca de Masaya
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4 line-clamp-2">
+              Construcción paso a paso de cuerpos de hamaca tradicionales, urdido con aguja de hueso y tejido de vuelos festoneados en hilo de algodón.
+            </p>
+</div>
+<div>
+<div class="flex items-center gap-3 py-3 border-t-0 bg-surface-container-low px-3 rounded-lg mb-4">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-label-sm text-label-sm font-bold">TC</div>
+<div class="min-w-0">
+<p class="font-title-md text-title-md text-primary truncate">Taller Hermanos Calero</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant truncate">Maestros Tejedores de Monimbó</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div>
+<span class="block font-label-sm text-label-sm text-outline uppercase tracking-wider">Inversión</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">$39 <span class="font-label-sm text-label-sm text-outline font-normal">USD</span></span>
+</div>
+<button class="px-4 py-2.5 rounded-lg bg-primary text-on-primary hover:bg-secondary font-label-md text-label-md transition-all shadow-sm" onclick="openCoursePreview('Urdimbre y Nudo: Técnicas de Telar de Hamaca de Masaya', 'Taller Hermanos Calero', 'Masaya', '$39 USD', '10 horas', 'Aprenderás a calibrar la tensión del telar manual vertical, tejer el punto doble resistente y rematar con barbas decorativas en cadeneta.')">
+                Ver Detalle
+              </button>
+</div>
+</div>
+</div>
+</article>
+<!-- Course 4 -->
+<article class="course-card bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden group" data-category="talla" data-format="En vivo" data-level="Avanzado" data-price="55" data-rating="4.9" data-region="Granada">
+<div class="relative w-full h-56 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Woodcarver working on dense Guayacan hardwood with sharp gouges and chisels, fine wood shavings on workbench, carved floral colonial relief patterns" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLVl-naTHy9XW1Jj1m4_txd4TjoGBPQL4Biai3_8z4ZHdrP41cJG6NnzVd-mFKAldZxHVgtog_dC2G4vTj0G7baHTyGsSTB3sHqiBJCDsbDTTIjJScDB6t1HFR8Tn-nYE4SvE5quyIERFLKlWRO1VZDHiiiC-St0xamkjZ8NXsKAlJeZF_JNlvpyEBXg2UkHdrhlROy72JFIMPDOPHugMjXvQlfRb81jnubkNW0Y5LSBQYumyoA0JYxg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-60"></div>
+<div class="absolute top-3 left-3 flex gap-2">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm shadow-sm">Talla</span>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1.5 text-on-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+<span>Granada Colonial</span>
+</div>
+</div>
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-outline">Avanzado • 14 Horas</span>
+<div class="flex items-center gap-1 text-secondary font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>4.9</span>
+<span class="text-outline font-normal">(115)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors mb-2 leading-snug">
+              Talla en Guayacán y Maderas Preciosas
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4 line-clamp-2">
+              Tratamiento de vetas densas, afilado de gubias tradicionales y composición de relieves ornamentales inspirados en la imaginería colonial.
+            </p>
+</div>
+<div>
+<div class="flex items-center gap-3 py-3 border-t-0 bg-surface-container-low px-3 rounded-lg mb-4">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-label-sm text-label-sm font-bold">CM</div>
+<div class="min-w-0">
+<p class="font-title-md text-title-md text-primary truncate">Carlos Morales</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant truncate">Escultor y Restaurador Patrimonial</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div>
+<span class="block font-label-sm text-label-sm text-outline uppercase tracking-wider">Inversión</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">$55 <span class="font-label-sm text-label-sm text-outline font-normal">USD</span></span>
+</div>
+<button class="px-4 py-2.5 rounded-lg bg-primary text-on-primary hover:bg-secondary font-label-md text-label-md transition-all shadow-sm" onclick="openCoursePreview('Talla en Guayacán y Maderas Preciosas', 'Carlos Morales', 'Granada', '$55 USD', '14 horas', 'Especialización en escultura tridimensional en maderas nobles. Anatomía formal, acabados al aceite de linaza y cera virgen de abejas.')">
+                Ver Detalle
+              </button>
+</div>
+</div>
+</div>
+</article>
+<!-- Course 5 -->
+<article class="course-card bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden group" data-category="textil" data-format="A tu ritmo" data-level="Intermedio" data-price="35" data-rating="4.7" data-region="Masaya">
+<div class="relative w-full h-56 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Detailed embroidery stitching on traditional folk costume, silk threads in yellow, crimson and turquoise forming floral and bird patterns on dark cotton fabric" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8YfTe3OBBU_HEnuqImdFImsAHLi723rRbjOofxblOwbHMEOqQvjWfDI3bJYe4DZDzzRzcRCnUr6WlTjb2nBDINu-2t78VwnB9IDRb6trRM5M8A41qqdG7cexQ_vH7Yh1M71gHYJ1r4zNNjPHVkfyBXRzMZIvDoB8SEottgD8213il4I6MzilZwwP49CtPBMxiyvvbNapyJAaxOytdPKSv6cqVryPoOmaBsytCxqrhMwbeNIzycMArXA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-60"></div>
+<div class="absolute top-3 left-3 flex gap-2">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm shadow-sm">Bordado</span>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1.5 text-on-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+<span>Masaya</span>
+</div>
+</div>
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-outline">Intermedio • 8 Horas</span>
+<div class="flex items-center gap-1 text-secondary font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>4.7</span>
+<span class="text-outline font-normal">(88)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors mb-2 leading-snug">
+              Bordado Tradicional Mestizo y Trajes de Folclore
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4 line-clamp-2">
+              Puntos característicos de las enaguas de baile: nudo francés, cadeneta sombreada y bordado con hilos matizados de seda criolla.
+            </p>
+</div>
+<div>
+<div class="flex items-center gap-3 py-3 border-t-0 bg-surface-container-low px-3 rounded-lg mb-4">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary flex items-center justify-center font-label-sm text-label-sm font-bold">CS</div>
+<div class="min-w-0">
+<p class="font-title-md text-title-md text-primary truncate">Doña Carmen Silva</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant truncate">Bordadora Mayor del Baile de Negras</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div>
+<span class="block font-label-sm text-label-sm text-outline uppercase tracking-wider">Inversión</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">$35 <span class="font-label-sm text-label-sm text-outline font-normal">USD</span></span>
+</div>
+<button class="px-4 py-2.5 rounded-lg bg-primary text-on-primary hover:bg-secondary font-label-md text-label-md transition-all shadow-sm" onclick="openCoursePreview('Bordado Tradicional Mestizo y Trajes de Folclore', 'Doña Carmen Silva', 'Masaya', '$35 USD', '8 horas', 'Taller minucioso para dominar la ornamentación textil de las danzas típicas nicaragüenses. Incluye patrones históricos digitalizados.')">
+                Ver Detalle
+              </button>
+</div>
+</div>
+</div>
+</article>
+<!-- Course 6 -->
+<article class="course-card bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden group" data-category="folclore" data-format="A tu ritmo" data-level="Principiante" data-price="40" data-rating="4.9" data-region="Diriamba">
+<div class="relative w-full h-56 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Traditional El Gueguense festival wooden and papier-mache mask with painted Spanish features, blue eyes, ornate mustache, paired with festive ribbons and handcraft tools" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7G6NUZxMRYG0XA-lae6ocKSSVC-CBdRSujmFyivDehXewE1NE65eMO52_p9wNVjjBXoZ9Q8jq2pxV9rYopGD2_UWgz5ZQGGJrVmPs0pOlN0DhfLueSFzvZJKuWX5qKtrXFFIC3S6e7eABMmL0_PHFfzbB1rf3MfREN45jCriO8krerrzTJikeB8GopBKMKbPiIoW3HD7pcf8S4tl_M9Mb1xMlzphIit6HnMKgCt-Qp2CFjQvgvLOYNQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-60"></div>
+<div class="absolute top-3 left-3 flex gap-2">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm shadow-sm">Folclore</span>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1.5 text-on-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+<span>Diriamba, Carazo</span>
+</div>
+</div>
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-outline">Principiante • 11 Horas</span>
+<div class="flex items-center gap-1 text-secondary font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>4.9</span>
+<span class="text-outline font-normal">(240)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors mb-2 leading-snug">
+              Máscaras del Güegüense en Papel Maché y Madera
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4 line-clamp-2">
+              Aprende el moldeado escultórico y la pintura policromada de la sátira teatral declarada Patrimonio Inmaterial de la Humanidad por UNESCO.
+            </p>
+</div>
+<div>
+<div class="flex items-center gap-3 py-3 border-t-0 bg-surface-container-low px-3 rounded-lg mb-4">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-label-sm text-label-sm font-bold">DA</div>
+<div class="min-w-0">
+<p class="font-title-md text-title-md text-primary truncate">Colectivo Diriamba Arte</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant truncate">Custodios de la Máscara Popular</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div>
+<span class="block font-label-sm text-label-sm text-outline uppercase tracking-wider">Inversión</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">$40 <span class="font-label-sm text-label-sm text-outline font-normal">USD</span></span>
+</div>
+<button class="px-4 py-2.5 rounded-lg bg-primary text-on-primary hover:bg-secondary font-label-md text-label-md transition-all shadow-sm" onclick="openCoursePreview('Máscaras del Güegüense en Papel Maché y Madera', 'Colectivo Diriamba Arte', 'Diriamba', '$40 USD', '11 horas', 'Moldeado en pasta de papel natural, armado sobre bastidor ligero y aplicación de barnices resistentes a intemperie.')">
+                Ver Detalle
+              </button>
+</div>
+</div>
+</div>
+</article>
+</div>
+<!-- Empty State for Filters -->
+<div class="hidden text-center py-16 bg-surface-container-lowest rounded-xl shadow-sm mt-6" id="noResults">
+<span class="material-symbols-outlined text-outline text-5xl mb-3">search_off</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">No se encontraron cursos coincidentes</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md mx-auto mb-6">
+        Prueba cambiando los criterios de filtro, ampliando la región seleccionada o limpiando la barra de búsqueda.
+      </p>
+<button class="px-5 py-2.5 rounded-lg bg-primary text-on-primary font-label-md text-label-md shadow-sm hover:bg-secondary transition-all" id="resetFromEmpty">
+        Ver Todos los Cursos
+      </button>
+</div>
+</section>
+<!-- Interactive Value Proposition Banner -->
+<section class="w-full max-w-[1320px] mx-auto px-6 lg:px-margin mt-16">
+<div class="bg-primary text-on-primary rounded-2xl p-8 lg:p-12 relative overflow-hidden shadow-xl">
+<div class="absolute -right-16 -bottom-16 w-80 h-80 rounded-full bg-secondary opacity-40 blur-3xl pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 relative z-10 items-center">
+<div class="lg:col-span-5">
+<span class="inline-block px-3 py-1 rounded-full bg-surface-container-lowest/15 backdrop-blur-sm text-on-primary font-label-sm text-label-sm uppercase tracking-wider mb-4">Garantía de Aprendizaje Nácar</span>
+<h2 class="font-headline-lg text-headline-lg font-bold leading-tight mb-4">
+            ¿Qué incluye cada curso en nuestra plataforma?
+          </h2>
+<p class="font-body-md text-body-md text-on-primary/80 leading-relaxed">
+            Cada inscripción apoya directamente a los talleres familiares en las comunidades artesanales, garantizando la preservación digna de sus técnicas ancestrales.
+          </p>
+</div>
+<div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="p-5 rounded-xl bg-surface-container-lowest/10 backdrop-blur-md">
+<div class="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center mb-3">
+<span class="material-symbols-outlined text-on-secondary">all_inclusive</span>
+</div>
+<h4 class="font-title-md text-title-md font-semibold mb-1">Acceso Ilimitado de por Vida</h4>
+<p class="font-body-sm text-body-sm text-on-primary/75">Vuelve a consultar las lecciones en alta definición a tu propio ritmo, desde cualquier dispositivo.</p>
+</div>
+<div class="p-5 rounded-xl bg-surface-container-lowest/10 backdrop-blur-md">
+<div class="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center mb-3">
+<span class="material-symbols-outlined text-on-secondary">forum</span>
+</div>
+<h4 class="font-title-md text-title-md font-semibold mb-1">Mentoría del Artesano</h4>
+<p class="font-body-sm text-body-sm text-on-primary/75">Envía fotografías de tus proyectos para recibir retroalimentación minuciosa y consejos del maestro.</p>
+</div>
+<div class="p-5 rounded-xl bg-surface-container-lowest/10 backdrop-blur-md">
+<div class="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center mb-3">
+<span class="material-symbols-outlined text-on-secondary">workspace_premium</span>
+</div>
+<h4 class="font-title-md text-title-md font-semibold mb-1">Certificado Digital Verificado</h4>
+<p class="font-body-sm text-body-sm text-on-primary/75">Avalado por el Colectivo Nácar y los talleres guardianes de cada municipio participante.</p>
+</div>
+<div class="p-5 rounded-xl bg-surface-container-lowest/10 backdrop-blur-md">
+<div class="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center mb-3">
+<span class="material-symbols-outlined text-on-secondary">diversity_3</span>
+</div>
+<h4 class="font-title-md text-title-md font-semibold mb-1">Comunidad Cultural Privada</h4>
+<p class="font-body-sm text-body-sm text-on-primary/75">Conéctate con creadores de todo el mundo para compartir mezclas de arcilla, recetas de tintes y fuentes de materiales.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Pagination & Support / Propose Workshop CTA -->
+<section class="w-full max-w-[1320px] mx-auto px-6 lg:px-margin my-14">
+<!-- Pagination Navigation -->
+<div class="flex items-center justify-center gap-2 mb-14">
+<button aria-label="Página anterior" class="w-10 h-10 rounded-lg bg-surface-container-low text-outline flex items-center justify-center cursor-not-allowed" disabled="">
+<span class="material-symbols-outlined text-[20px]">chevron_left</span>
+</button>
+<button class="w-10 h-10 rounded-lg bg-primary text-on-primary font-label-md text-label-md font-bold shadow-sm">1</button>
+<button class="w-10 h-10 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">2</button>
+<button class="w-10 h-10 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">3</button>
+<span class="px-2 text-outline font-bold">...</span>
+<button class="w-10 h-10 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">8</button>
+<button aria-label="Página siguiente" class="w-10 h-10 rounded-lg bg-surface-container text-on-surface flex items-center justify-center hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</button>
+</div>
+<!-- Community & Custom Inquiry Split Banner -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<div class="bg-surface-container-low p-8 rounded-xl flex flex-col justify-between shadow-xs">
+<div>
+<div class="w-10 h-10 rounded-full bg-surface-container-high text-primary flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[22px]">auto_stories</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">¿Buscas aprender gratis antes de empezar?</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+            Descarga nuestras guías ilustradas de pigmentos volcánicos, historias orales de Masaya y manuales básicos de modelado en barro.
+          </p>
+</div>
+<a class="inline-flex items-center gap-2 text-secondary font-label-lg text-label-lg font-bold hover:gap-3 transition-all" data-path="recursos" href="../index.html#recursos">
+<span>Explorar Recursos Gratuitos</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<div class="bg-surface-container p-8 rounded-xl flex flex-col justify-between shadow-xs">
+<div>
+<div class="w-10 h-10 rounded-full bg-surface-container-high text-primary flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[22px]">handyman</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">¿No encuentras la disciplina que buscas?</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+            Conectamos con redes artesanales de Las Segovias, la Costa Caribe y Rivas. Propón un maestro o solicita una residencia de aprendizaje.
+          </p>
+</div>
+<a class="inline-flex items-center gap-2 text-primary font-label-lg text-label-lg font-bold hover:text-secondary hover:gap-3 transition-all" href="../proximamente.html">
+<span>Proponer un Taller Local</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Interactive Slide-Over Course Detail Preview Modal -->
+<div aria-labelledby="modalTitle" aria-modal="true" class="fixed inset-0 z-50 hidden" id="courseModal" role="dialog">
+<div class="fixed inset-0 bg-primary/40 backdrop-blur-sm transition-opacity" id="modalBackdrop"></div>
+<div class="fixed inset-y-0 right-0 max-w-full flex pl-10">
+<div class="w-screen max-w-md bg-surface-container-lowest shadow-2xl p-6 flex flex-col justify-between overflow-y-auto">
+<div>
+<div class="flex items-center justify-between pb-4">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-bold">Ficha de Inscripción</span>
+<button aria-label="Cerrar vista previa" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-outline hover:text-on-surface transition-colors" onclick="closeCoursePreview()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<div class="mt-4">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider block mb-1" id="modalRegion">San Juan de Oriente</span>
+<h3 class="font-headline-md text-headline-md text-primary leading-tight mb-2" id="modalTitle">Alfarería Ancestral</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-4" id="modalInstructor">Guiado por Don José Amador</p>
+<div class="p-4 rounded-xl bg-surface-container-low mb-6">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-outline mb-2">
+<span>Duración Estimada:</span>
+<span class="font-bold text-on-surface" id="modalDuration">16 horas</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-outline mb-2">
+<span>Modalidad:</span>
+<span class="font-bold text-on-surface">Digital + Kit de Muestras</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-outline">
+<span>Idioma:</span>
+<span class="font-bold text-on-surface">Español (Subtítulos en Inglés)</span>
+</div>
+</div>
+<h4 class="font-title-md text-title-md text-primary font-bold mb-2">Descripción del Taller</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-6" id="modalDescription">
+              Aprenderás a extraer arcillas naturales, preparación de barbotina, técnicas precolombinas de pulido con piedras de río y esmaltes minerales.
+            </p>
+<h4 class="font-title-md text-title-md text-primary font-bold mb-3">Módulos Principales</h4>
+<ul class="space-y-2.5 font-body-sm text-body-sm text-on-surface">
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span>1. El espíritu de la greda: Reconocimiento y purificación.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span>2. Torno de pie y técnica del pellizcado autóctono.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">check_circle</span>
+<span>3. Pulimento con ágatas y sellado al calor.</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-6 border-t-0 bg-surface-container-low -mx-6 -mb-6 p-6 mt-6">
+<div class="flex items-center justify-between mb-4">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Precio total:</span>
+<span class="font-headline-md text-headline-md text-primary font-bold" id="modalPrice">$45 USD</span>
+</div>
+<button class="w-full py-3 rounded-lg bg-secondary text-on-secondary font-label-lg text-label-lg hover:bg-primary-container transition-all shadow-md">
+            Comenzar Inscripción Ahora
+          </button>
+<p class="text-center font-label-sm text-label-sm text-outline mt-2">7 días de garantía de satisfacción con reembolso íntegro</p>
+</div>
+</div>
+</div>
+</div>
+<script>
+    // Live Search, Filter & Sorter logic
+    const searchInput = document.getElementById('searchInput');
+    const clearBtn = document.getElementById('clearSearchBtn');
+    const cards = Array.from(document.querySelectorAll('.course-card'));
+    const noResults = document.getElementById('noResults');
+    const activeCount = document.getElementById('activeCoursesCount');
+    const filterLevel = document.getElementById('filterLevel');
+    const filterFormat = document.getElementById('filterFormat');
+    const filterRegion = document.getElementById('filterRegion');
+    const filterSort = document.getElementById('filterSort');
+    const resetFilters = document.getElementById('resetFilters');
+    const resetFromEmpty = document.getElementById('resetFromEmpty');
+    const categoryButtons = document.querySelectorAll('.cat-pill');
+
+    let currentCategory = 'all';
+
+    function applyFilters() {
+      const query = (searchInput.value || '').toLowerCase().trim();
+      const level = filterLevel.value;
+      const format = filterFormat.value;
+      const region = filterRegion.value;
+
+      if (query.length > 0) {
+        clearBtn.classList.remove('hidden');
+      } else {
+        clearBtn.classList.add('hidden');
+      }
+
+      let visibleCards = 0;
+
+      cards.forEach(card => {
+        const title = card.querySelector('h3').textContent.toLowerCase();
+        const description = card.querySelector('p').textContent.toLowerCase();
+        const instructor = card.querySelector('.truncate').textContent.toLowerCase();
+        const cardCategory = card.getAttribute('data-category');
+        const cardLevel = card.getAttribute('data-level');
+        const cardFormat = card.getAttribute('data-format');
+        const cardRegion = card.getAttribute('data-region');
+
+        const matchesQuery = !query || title.includes(query) || description.includes(query) || instructor.includes(query) || cardRegion.toLowerCase().includes(query);
+        const matchesCategory = currentCategory === 'all' || cardCategory === currentCategory;
+        const matchesLevel = !level || cardLevel === level;
+        const matchesFormat = !format || cardFormat === format;
+        const matchesRegion = !region || cardRegion.includes(region);
+
+        if (matchesQuery && matchesCategory && matchesLevel && matchesFormat && matchesRegion) {
+          card.classList.remove('hidden');
+          visibleCards++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+
+      activeCount.textContent = visibleCards + (visibleCards === 1 ? ' Curso Activo' : ' Cursos Activos');
+      if (visibleCards === 0) {
+        noResults.classList.remove('hidden');
+      } else {
+        noResults.classList.add('hidden');
+      }
+    }
+
+    // Category Tabs click
+    categoryButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        categoryButtons.forEach(b => {
+          b.classList.remove('bg-primary', 'text-on-primary');
+          b.classList.add('bg-surface-container', 'text-on-surface');
+        });
+        btn.classList.add('bg-primary', 'text-on-primary');
+        btn.classList.remove('bg-surface-container', 'text-on-surface');
+        currentCategory = btn.getAttribute('data-cat');
+        applyFilters();
+      });
+    });
+
+    // Inputs & Selects
+    searchInput.addEventListener('input', applyFilters);
+    filterLevel.addEventListener('change', applyFilters);
+    filterFormat.addEventListener('change', applyFilters);
+    filterRegion.addEventListener('change', applyFilters);
+
+    clearBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      applyFilters();
+    });
+
+    function resetAll() {
+      searchInput.value = '';
+      filterLevel.value = '';
+      filterFormat.value = '';
+      filterRegion.value = '';
+      currentCategory = 'all';
+      categoryButtons.forEach(b => {
+        if(b.getAttribute('data-cat') === 'all') {
+          b.classList.add('bg-primary', 'text-on-primary');
+          b.classList.remove('bg-surface-container', 'text-on-surface');
+        } else {
+          b.classList.remove('bg-primary', 'text-on-primary');
+          b.classList.add('bg-surface-container', 'text-on-surface');
+        }
+      });
+      applyFilters();
+    }
+
+    resetFilters.addEventListener('click', resetAll);
+    resetFromEmpty.addEventListener('click', resetAll);
+
+    // Sorting
+    filterSort.addEventListener('change', () => {
+      const mode = filterSort.value;
+      const container = document.getElementById('courseGrid');
+      const sorted = [...cards].sort((a, b) => {
+        const priceA = parseFloat(a.getAttribute('data-price'));
+        const priceB = parseFloat(b.getAttribute('data-price'));
+        const ratingA = parseFloat(a.getAttribute('data-rating'));
+        const ratingB = parseFloat(b.getAttribute('data-rating'));
+
+        if (mode === 'price-asc') return priceA - priceB;
+        if (mode === 'price-desc') return priceB - priceA;
+        if (mode === 'rating') return ratingB - ratingA;
+        return 0; // default / popular
+      });
+
+      sorted.forEach(card => container.appendChild(card));
+    });
+
+    // Modal Course Preview
+    window.openCoursePreview = function(title, instructor, region, price, duration, description) {
+      document.getElementById('modalTitle').textContent = title;
+      document.getElementById('modalInstructor').textContent = 'Guiado por ' + instructor;
+      document.getElementById('modalRegion').textContent = region;
+      document.getElementById('modalPrice').textContent = price;
+      document.getElementById('modalDuration').textContent = duration;
+      document.getElementById('modalDescription').textContent = description;
+      document.getElementById('courseModal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    };
+
+    window.closeCoursePreview = function() {
+      document.getElementById('courseModal').classList.add('hidden');
+      document.body.style.overflow = '';
+    };
+
+    document.getElementById('modalBackdrop').addEventListener('click', window.closeCoursePreview);
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface shadow-[0_-2px_12px_rgba(38,1,1,0.03)]"><div class="max-w-[1320px] mx-auto px-6 lg:px-margin py-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter lg:gap-space-xl mb-margin"><div class="lg:col-span-4"><div class="flex items-center gap-space-sm mb-space-md"><img alt="Nácar" class="h-9 w-auto mix-blend-multiply" src="../assets/nacar-logo.png"/></div><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">Santuario digital para la preservación, enseñanza y difusión del patrimonio artístico, folclórico y artesanal de Nicaragua. Conectando a creadores con las raíces vivas de nuestra cultura.</p><div class="flex items-center gap-space-sm"><a aria-label="Explorar galería" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-primary-container hover:text-on-primary transition-colors" href="../proximamente.html"><span class="material-symbols-outlined text-[18px]">palette</span></a><a aria-label="Comunidad" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-primary-container hover:text-on-primary transition-colors" href="../proximamente.html"><span class="material-symbols-outlined text-[18px]">groups</span></a><a aria-label="Contacto cultural" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-primary-container hover:text-on-primary transition-colors" href="../proximamente.html"><span class="material-symbols-outlined text-[18px]">mail</span></a></div></div><div class="lg:col-span-2 sm:col-span-1"><h4 class="font-title-lg text-title-lg text-primary font-semibold mb-space-md">Disciplinas</h4><ul class="space-y-space-sm"><li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-secondary transition-colors" href="../proximamente.html">Cerámica Ancestral</a></li><li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-secondary transition-colors" href="../proximamente.html">Pintura Primitivista</a></li><li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-secondary transition-colors" href="../proximamente.html">Tejido &amp; Telar</a></li><li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-secondary transition-colors" href="../proximamente.html">Escultura &amp; Talla</a></li><li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-secondary transition-colors" href="../proximamente.html">Literatura &amp; Canto</a></li></ul></div><div class="lg:col-span-2 sm:col-span-1"><h4 class="font-title-lg text-title-lg text-primary font-semibold mb-space-md">Enlaces Rápidos</h4><ul class="space-y-space-sm"><li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-secondary transition-colors" data-path="artistas" href="../index.html#artistas">Directorio Artistas</a></li><li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-secondary transition-colors" data-path="recursos" href="../index.html#recursos">Recursos Gratuitos</a></li><li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-secondary transition-colors" data-path="sobre-nacar" href="../index.html#sobre-nacar">Nuestra Identidad</a></li><li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-secondary transition-colors" href="../proximamente.html">Glosario Cultural</a></li><li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-secondary transition-colors" href="../proximamente.html">Preguntas Frecuentes</a></li></ul></div><div class="lg:col-span-4"><h4 class="font-title-lg text-title-lg text-primary font-semibold mb-space-xs">Boletín Cultural</h4><p class="font-body-md text-body-md text-on-surface-variant mb-space-md">Recibe relatos artesanales, convocatorias a talleres en vivo y crónicas del patrimonio nacional.</p><form class="flex flex-col sm:flex-row gap-space-xs"><input class="flex-1 px-space-md py-2.5 rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-outline text-body-sm font-body-sm focus:outline-none focus:ring-1 focus:ring-primary shadow-sm" placeholder="Tu correo electrónico" required="" type="email"/><button class="px-space-md py-2.5 rounded-lg bg-secondary text-on-secondary font-label-lg text-label-lg hover:bg-primary-container transition-colors shadow-sm" type="submit">Suscribirse</button></form></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><p>© 2025 Nácar. Celebrando el arte e identidad nicaragüense.</p><div class="flex items-center gap-space-lg"><a class="hover:text-primary transition-colors" href="../proximamente.html">Términos de Aprendizaje</a><a class="hover:text-primary transition-colors" href="../proximamente.html">Privacidad y Saberes</a><a class="hover:text-primary transition-colors" href="../proximamente.html">Soporte Cultural</a></div></div></div></footer></body></html>
